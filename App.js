@@ -646,7 +646,7 @@ export default function App() {
           <MapViewDirections
             origin={currentLocation}
             destination={selectedMarker.coordinate}
-            apikey={"AIzaSyBQL52pAibHVsZ1Dn-MHQVOFxNWBRBwIbI"}
+            apikey={process.env.GOOGLE_API_KEY}
             strokeWidth={3}
             strokeColor="hotpink"
             onReady={(result) => {
