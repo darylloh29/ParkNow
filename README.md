@@ -6,6 +6,7 @@
 <br/>
 
 ## Overview
+
 ParkNow is a platform-independent mobile application that provides Singapore car owners with real-time information about the parking costs and availability of car parks across Singapore. In alignment with the Smart Nation movement, ParkNow utilizes APIs and a range of publicly available data to deliver an innovative, practical, and useful application that will undoubtedly improve the quality of life of all Singapore car users.
 
 ## Team Members✨
@@ -27,8 +28,8 @@ ParkNow is a platform-independent mobile application that provides Singapore car
 - **Routing Services**: Showcases Route with Travel Time to destination alongside a list of Navigation apps to chose from for step-by-step route navigation
 - **Estimated Parking Cost Calculation**: Utilises user Parking Duration input, car park Pricing Structure and user's Travel Time to car park to determine parking cost.
 
-
 ## Installation
+
 1. Clone the repository: `git clone https://github.com/your-username/your-project.git`
 2. Navigate to the project directory: `cd your-project`
 3. Install dependencies: `npm install`
@@ -38,18 +39,20 @@ ParkNow is a platform-independent mobile application that provides Singapore car
 To run the project, use the following command:
 
 1. Navigate to the project directory: `cd your-project`
-2. Start up expo: `npx expo start`
-3. Start up Android emulator: Press `a`
-   * Set up Android emulator using Android Studio if not previously done, device used: Pixel 7 Pro API 34  
-4. App is launched
+2. Create a `.env.local` file in the root repository and add in `GOOGLE_API_KEY=<your-api-key>`
+3. Start up expo: `npx expo start`
+4. Start up Android emulator: Press `a`
+   - Set up Android emulator using Android Studio if not previously done, device used: Pixel 7 Pro API 34
+5. App is launched
 
 ## Technology Stack
+
 - **Language**: JavaScript, PostgreSQL
 - **Database**: Supabase
 - **Frameworks**: React Native
 
 ## Software Requirements Specification
+
 For detailed documentation, refer to the `.docs` directory
 
 [View the Software Requirements Specification Documentation](https://github.com/darylloh29/ParkNow/blob/main/docs/Software%20Requirements%20Specification%20SC2006.pdf)
-
